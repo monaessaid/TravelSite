@@ -1,6 +1,6 @@
 * {
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    /* color: black; */
     font-family: Josefin Sans, Tahoma, sans-serif;
 }
 
@@ -9,11 +9,29 @@
     font-weight: 300;
 }
 
+#background-vid {
+    position: fixed;
+    right: 0;
+    top: 0;
+    /* min-width: 100%; */
+    /* min-height: 100%; */
+    z-index: -1;
+}
+
+#destination {
+    font-size: 5vw;
+    border-radius: 25px;
+    border: none;
+}
+
 #goButton {
     font-size: 3vw;
     padding: 1%;
+    border-radius: 25px;
+    border: none;
 }
 
 #goButton:hover {
-    color: green;
+    background: linear-gradient(to right, red,yellow,rgb(0, 250, 0),rgb(75, 75, 225),rgb(72, 0, 80));
+    color: black;
 }
