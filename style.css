@@ -1,9 +1,10 @@
 * {
     background-color: black;
     color: white;
-    font-family: Montserrat, Tahoma, sans-serif;
+    font-family: Josefin Sans, Tahoma, sans-serif;
 }
 
 #title {
-    
+    font-size: 10vw;
+    font-weight: 300;
 }
