@@ -8,3 +8,12 @@
     font-size: 10vw;
     font-weight: 300;
 }
+
+#goButton {
+    font-size: 3vw;
+    padding: 1%;
+}
+
+#goButton:hover {
+    color: green;
+}
