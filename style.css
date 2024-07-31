@@ -22,7 +22,21 @@
     z-index: -1;
 }
 
-#destination {
+#regions {
+    font-size: 4vw;
+    padding: 7px;
+    /* font-weight: 300; */
+    border-radius: 40px;
+    border: none;
+    align-items: center;
+    /* background-color: rgba(255, 255, 255, 0.498); */
+}
+
+.regionOptions {
+    font-size: 4vw;
+}
+
+/* #destination {
     font-size: 5vw;
     padding: 7px;
     font-weight: 300;
@@ -30,7 +44,7 @@
     border: none;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.498);
-}
+} */
 
 #surpriseButton {
     font-size: 4vw;
