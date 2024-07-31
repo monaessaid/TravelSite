@@ -32,6 +32,18 @@
     background-color: rgba(255, 255, 255, 0.498);
 }
 
+#surpriseButton {
+    font-size: 4vw;
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+}
+
+#surpriseButton:hover {
+    background: linear-gradient(to right, red,yellow,rgb(0, 250, 0),rgb(75, 75, 225),rgb(72, 0, 80));
+    color: black; 
+}
+
 #goButton {
     font-size: 4vw;
     padding: 10px;
@@ -40,6 +52,6 @@
 }
 
 #goButton:hover {
-    background: linear-gradient(to right, red,yellow,rgb(0, 250, 0),rgb(75, 75, 225),rgb(72, 0, 80));
+    background: linear-gradient(to right, #00ff00, rgb(116, 255, 116),rgb(179, 255, 179));
     color: black;
 }
