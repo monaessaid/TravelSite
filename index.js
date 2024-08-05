@@ -96,6 +96,7 @@ let asiaList = [
     "Myanmar",
     "Nepal",
     "Oman",
+    "Palestine",
     "Pakistan",
     "Philippines",
     "Qatar",
@@ -103,7 +104,6 @@ let asiaList = [
     "Saudi Arabia",
     "Singapore",
     "Sri Lanka",
-    "State of Palestine",
     "Syria",
     "Tajikistan",
     "Thailand",
@@ -116,13 +116,37 @@ let asiaList = [
     "Yemen"
 ]
 
+let carribeanList = [
+    "Anguilla",
+    "Antigua and Barbuda",
+    "Aruba",
+    "Bahamas",
+    "Barbados",
+    "Bonaire, Sint Eustatius and Saba",
+    "British Virgin Islands",
+    "Cayman Islands",
+    "Cuba",
+    "Curaçao",
+    "Dominica",
+    "Dominican Republic",
+    "Grenada",
+    "Guadeloupe",
+    "Haiti",
+    "Jamaica",
+    "Martinique",
+    "Montserrat",
+    "Puerto Rico",
+    "Saint Barthélemy",
+    "Saint Kitts and Nevis",
+    "Saint Lucia",
+    "Saint Martin",
+    "Saint Vincent and the Grenadines",
+    "Sint Maarten",
+    "Trinidad and Tobago",
+    "Turks and Caicos Islands",
+    "United States Virgin Islands"
+]
 
-
-
-
-
-
-let carribeanList = []
 let centralAmericaList = []
 let northAmericaList = []
 let southAmericaList = []
