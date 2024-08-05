@@ -59,3 +59,13 @@
     background: linear-gradient(to right, #00ff00, rgb(116, 255, 116),rgb(179, 255, 179));
     color: black;
 }
+
+#countryName {
+    margin: auto;
+}
+
+#countryNameText {
+    font-size: 4vw;
+    color: white;
+    background-color: black;
+}

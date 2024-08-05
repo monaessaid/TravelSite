@@ -274,3 +274,10 @@ let oceaniaList = [
     "Vanuatu",
     "Wallis and Futuna Islands"
 ]
+
+let generatedCountry;
+
+
+
+const element = document.getElementById("countryNameText");
+element.innerHTML = "newText";
