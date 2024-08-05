@@ -280,6 +280,9 @@ let generatedCountry;
 const element = document.getElementById("countryNameText");
 element.innerHTML = "newText";
 
+let selectedRegion = document.getElementById('selectRegion').value;
+console.log(selectedRegion);
+
 // function getOption() {
 //     selectElement = document.querySelector('#selectRegion');
 //     output = 
