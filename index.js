@@ -54,14 +54,66 @@ let africaList = [
 "Somalia" ,
 "South Africa" ,
 "South Sudan" ,
-"Sudan" ,
+"Sudan",
+"Tanzania" ,
 "Togo" ,
 "Tunisia" ,
 "Uganda" ,
-"United Republic of Tanzania" ,
 "Western Sahara" ,
 "Zambia" ,
 "Zimbabwe"
+]
+
+let asiaList = [
+"Afghanistan" , 
+"Armenia" ,
+"Azerbaijan" ,
+"Bahrain" ,
+"Bangladesh" ,
+"Bhutan" ,
+"Brunei" ,
+"Cambodia" ,
+"China" ,
+"Cyprus" ,
+"Democratic People's Republic of Korea" ,
+"Georgia" ,
+"Hong Kong" ,
+"India" ,
+"Indonesia" ,
+"Iran" ,
+"Iraq" ,
+"Japan" ,
+"Jordan" ,
+"Kazakhstan" ,
+"Kuwait" ,
+"Kyrgyzstan" ,
+"Laos" ,
+"Lebanon" ,
+"Macao" ,
+"Malaysia" ,
+"Maldives" ,
+"Mongolia" ,
+"Myanmar" ,
+"Nepal" ,
+"Oman" ,
+"Pakistan" ,
+"Philippines" ,
+"Qatar" ,
+"Republic of Korea" ,
+"Saudi Arabia" ,
+"Singapore" ,
+"Sri Lanka" ,
+"State of Palestine" ,
+"Syria" ,
+"Tajikistan" ,
+"Thailand" ,
+"Timor-Leste" ,
+"Turkey" ,
+"Turkmenistan" ,
+"United Arab Emirates" ,
+"Uzbekistan" ,
+"Vietnam" ,
+"Yemen" 
 ]
 
 
@@ -70,8 +122,6 @@ let africaList = [
 
 
 
-
-let asiaList = []
 let carribeanList = []
 let centralAmericaList = []
 let northAmericaList = []
