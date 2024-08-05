@@ -277,7 +277,17 @@ let oceaniaList = [
 
 let generatedCountry;
 
-
-
 const element = document.getElementById("countryNameText");
 element.innerHTML = "newText";
+
+// function getOption() {
+//     selectElement = document.querySelector('#selectRegion');
+//     output = 
+//         selectElement.options
+//         [selectElement.selectedIndex].value;
+//     document.querySelector('.countryNameText2').textContent = output;
+//     console.log(output);
+//     output = selectElement.value;
+//     document.getElementById("countryNameText2");
+//     countryNameText2.textContent = output;
+// }
