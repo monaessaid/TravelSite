@@ -147,10 +147,46 @@ let carribeanList = [
     "United States Virgin Islands"
 ]
 
-let centralAmericaList = []
-let northAmericaList = []
-let southAmericaList = []
+let centralAmericaList = [
+    "Belize",
+    "Costa Rica",
+    "El Salvador",
+    "Guatemala",
+    "Honduras",
+    "Mexico",
+    "Nicaragua",
+    "Panama"
 
+]
+
+let northAmericaList = [
+    "Bermuda",
+    "Canada",
+    "Greenland",
+    "Saint Pierre and Miquelon",
+    "United States of America"
+
+]
+
+let southAmericaList = [
+    "Argentina",
+    "Bolivia",
+    "Bouvet Island",
+    "Brazil",
+    "Chile",
+    "Colombia",
+    "Ecuador",
+    "Falkland Islands (Malvinas)",
+    "French Guiana",
+    "Guyana",
+    "Paraguay",
+    "Peru",
+    "South Georgia and the South Sandwich Islands",
+    "Suriname",
+    "Uruguay",
+    "Venezuela"
+
+]
 
 let europeList = [
     "Åland Islands",
@@ -207,4 +243,34 @@ let europeList = [
 ]
 
 
-let oceaniaList = []
+let oceaniaList = [
+    "American Samoa",
+    "Australia",
+    "Christmas Island",
+    "Cocos (Keeling) Islands",
+    "Cook Islands",
+    "Fiji",
+    "French Polynesia",
+    "Guam",
+    "Heard Island and McDonald Islands",
+    "Kiribati",
+    "Marshall Islands",
+    "Micronesia",
+    "Nauru",
+    "New Caledonia",
+    "New Zealand",
+    "Niue",
+    "Norfolk Island",
+    "Northern Mariana Islands",
+    "Palau",
+    "Papua New Guinea",
+    "Pitcairn",
+    "Samoa",
+    "Solomon Islands",
+    "Tokelau",
+    "Tonga",
+    "Tuvalu",
+    "United States Minor Outlying Islands",
+    "Vanuatu",
+    "Wallis and Futuna Islands"
+]
