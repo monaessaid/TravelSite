@@ -1,5 +1,5 @@
 
-let antarcticaList = ["Antarctica"]
+let antarcticaList = ["Antarctica2"]
 
 let africaList = [
     "Algeria",
@@ -277,12 +277,17 @@ let oceaniaList = [
 
 let generatedCountry;
 
-// const element = document.getElementById("countryNameText");
-// element.innerHTML = "newText";
+// let selectedRegion = document.getElementById('selectRegion').value;
+// console.log(selectedRegion);
 
-let selectedRegion = document.getElementById('selectRegion').value;
-console.log(selectedRegion);
 
 function submitRegion() {
     document.getElementById("countryNameText").innerHTML = regionsDropdown.regions[regionsDropdown.regions.selectedIndex].text;
 }
+
+function generateCountry() {
+    if (selectedRegion === "antarctica") {
+        document.getElementById("countryNameText").innerHTML = antarcticaList[0];
+    }
+}
+
