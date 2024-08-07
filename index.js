@@ -277,20 +277,12 @@ let oceaniaList = [
 
 let generatedCountry;
 
-const element = document.getElementById("countryNameText");
-element.innerHTML = "newText";
+// const element = document.getElementById("countryNameText");
+// element.innerHTML = "newText";
 
 let selectedRegion = document.getElementById('selectRegion').value;
 console.log(selectedRegion);
 
-// function getOption() {
-//     selectElement = document.querySelector('#selectRegion');
-//     output = 
-//         selectElement.options
-//         [selectElement.selectedIndex].value;
-//     document.querySelector('.countryNameText2').textContent = output;
-//     console.log(output);
-//     output = selectElement.value;
-//     document.getElementById("countryNameText2");
-//     countryNameText2.textContent = output;
-// }
+function submitRegion() {
+    document.getElementById("countryNameText").innerHTML = regionsDropdown.regions[regionsDropdown.regions.selectedIndex].text;
+}

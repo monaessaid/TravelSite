@@ -17,7 +17,7 @@
 
     <h1 id="title">Hello! Where to next?</h1>
 
-    <form>
+    <form name = "regionsDropdown">
         <!-- <input type="text" id="destination" name="destination"> -->
         <select name="regions" id="selectRegion" required>
             <option value="antarctica" name="antarctica" class="regionOptions">Antarctica</option>
@@ -30,15 +30,16 @@
             <option value="europe" name="europe" class="regionOptions">Europe</option>
             <option value="oceania" name="oceania" class="regionOptions">Oceania</option>
         </select>
-        <button id="goButton">Let's Go!</button>
-        <button id="surpriseButton">Surprise Me</button>
     </form>
+
+    <button id="goButton" onclick="submitRegion()">Let's Go!</button>
+    <button id="surpriseButton">Surprise Me</button>
 
     <div id="countryName">
         <span id="countryNameText">Country Name</span>
     </div>
 
-    <script src="index.js"></script>
+    <script src="index.js"></script> 
 </body>
 
 </html>
