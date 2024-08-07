@@ -288,6 +288,8 @@ function submitRegion() {
 function generateCountry() {
     if (selectedRegion === "antarctica") {
         document.getElementById("countryNameText").innerHTML = antarcticaList[0];
+    } else {
+        document.getElementById("countryNameText").innerHTML = "test";
     }
 }
 
